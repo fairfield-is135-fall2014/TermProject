@@ -100,6 +100,10 @@ div.row {
   width: 75%;
 }
 
+.media-youtube-video media-youtube-1 {
+  width: 75%;
+  float: right;
+}
 #footer {
   width: 100%;
   
@@ -108,8 +112,14 @@ div.row {
   
   margin: 0 auto; /* tb lr */
   clear:both;
+  text-align: center;
+  color: black;
 }
-
+.footer {
+   clear:both;
+  text-align: center;
+  color: black;
+}
 .calendar {
   width: 100%;
 }
@@ -118,3 +128,12 @@ div.row {
   width: 100%;
   max-width: 100%;
 }
+
+.text-danger {
+  color: #C8102E;
+}
+
+.btn btn-primary {
+  background-color: #C8102E;
+}
+
