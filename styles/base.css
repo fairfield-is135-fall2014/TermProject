@@ -11,7 +11,9 @@
 }
 
 
-
+div.row {
+  background-color: white;
+}
 
 
 #user-links {
@@ -109,5 +111,10 @@
 }
 
 .calendar {
-  width: 25%;
+  width: 100%;
+}
+
+.carousel img {
+  width: 100%;
+  max-width: 100%;
 }
