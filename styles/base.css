@@ -6,11 +6,14 @@
   background-color: #C8102E;
   
   margin: 0 auto; /* tb lr */
+  float: right;
   
 }
 
 
-
+div.row {
+  background-color: white;
+}
 
 
 #user-links {
@@ -50,6 +53,8 @@
   background-color: #C8102E;
   
   padding-left: 1em;
+  
+  float: right;
   
   
 }
@@ -92,9 +97,13 @@
 
 .content_clearfix {
   float: right;
-  width: 50%;
+  width: 75%;
 }
 
+.media-youtube-video media-youtube-1 {
+  width: 75%;
+  float: right;
+}
 #footer {
   width: 100%;
   
@@ -103,4 +112,32 @@
   
   margin: 0 auto; /* tb lr */
   clear:both;
+  text-align: center;
+  color: black;
+}
+.footer {
+   clear:both;
+  text-align: center;
+  color: black;
+}
+.calendar {
+  width: 100%;
+}
+
+.carousel img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.text-danger {
+  color: #C8102E;
+}
+
+.btn-btn-primary {
+  background-color: #C8102E;
+}
+
+footer col-md-4 {
+  
+  float: right;
 }
