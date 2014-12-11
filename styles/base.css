@@ -133,7 +133,11 @@ div.row {
   color: #C8102E;
 }
 
-.btn btn-primary {
+.btn-btn-primary {
   background-color: #C8102E;
 }
 
+footer col-md-4 {
+  
+  float: right;
+}
