@@ -70,7 +70,12 @@ div.row {
 #navbar ul li {
   
   display: inline-block;
+  color: black;
   
+}
+
+#navbar a:hover {
+  background-color: black;
 }
 
 
@@ -96,7 +101,7 @@ div.row {
 }
 
 .content_clearfix {
-  float: right;
+ 
   width: 75%;
 }
 
@@ -124,6 +129,10 @@ div.row {
   width: 100%;
 }
 
+.calendar img {
+  width: 100%;
+}
+
 .carousel img {
   width: 100%;
   max-width: 100%;
@@ -140,4 +149,12 @@ div.row {
 footer col-md-4 {
   
   float: right;
+}
+
+#action-menu {
+  margin: 0 auto;
+}
+
+.footer ul li {
+  list-style: none;
 }
